@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // Initialize Firebase
+      const firebaseConfig = {
+  apiKey: "AIzaSyAJHxhb3m-AOdJOY7ph9t55ZQUIGntkQ0s",
+  authDomain: "ball-movement-403ea.firebaseapp.com",
+  databaseURL: "https://ball-movement-403ea-default-rtdb.firebaseio.com",
+  projectId: "ball-movement-403ea",
+  storageBucket: "ball-movement-403ea.appspot.com",
+  messagingSenderId: "56575120471",
+  appId: "1:56575120471:web:3b3851097f630dc6337f12"
+};
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
